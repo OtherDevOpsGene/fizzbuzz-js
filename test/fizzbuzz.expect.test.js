@@ -1,28 +1,28 @@
 var fizzbuzz = require("../fizzbuzz.js");
-require("chai").should();
+var expect = require("chai").expect;
 
-describe("fizzbuzz-should", function () {
+describe("fizzbuzz: using expects", function () {
   context("when divisible by 3", function () {
     it("should return fizz", function () {
-      fizzbuzz(3).should.equal("fizz");
+      expect(fizzbuzz(3)).to.equal("fizz");
     });
   });
 
   context("when divisible by 5", function () {
     it("should return buzz", function () {
-      fizzbuzz(5).should.equal("buzz");
+      expect(fizzbuzz(5)).to.equal("buzz");
     });
   });
 
   context("when divisible by 15", function () {
     it("should return fizz", function () {
-      fizzbuzz(15).should.equal("fizzbuzz");
+      expect(fizzbuzz(15)).to.equal("fizzbuzz");
     });
   });
 
   context("when not divisible by 3 or 5", function () {
     it("should return the number", function () {
-      fizzbuzz(1).should.equal(1);
+      expect(fizzbuzz(1)).to.equal(1);
     });
   });
 });

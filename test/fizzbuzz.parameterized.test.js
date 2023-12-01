@@ -24,7 +24,7 @@ const tests = [
   {num: 20, expected: "buzz"},
 ];
 
-describe("fizzbuzz-parameterized", function () {
+describe("fizzbuzz: parameterized", function () {
   // eslint-disable-next-line mocha/no-setup-in-describe
   tests.forEach(({num, expected}) => {
     it(`${num} should return ${expected}`, function () {
