@@ -1,21 +1,21 @@
-'use strict';
+"use strict";
 
 function fizzbuzz(n) {
-  let resp = ""
+  let resp = "";
   if (0 === n % 3) {
-    resp += "fizz"
+    resp += "fizz";
   }
   if (0 === n % 5) {
-    resp += "buzz"
+    resp += "buzz";
   }
   if ("" === resp) {
-    resp = n
+    resp = n;
   }
-  return resp
+  return resp;
 }
 
 for (let i = 1; i <= 20; i++) {
-  console.log(fizzbuzz(i))
+  console.log(fizzbuzz(i));
 }
 
 module.exports = fizzbuzz;
