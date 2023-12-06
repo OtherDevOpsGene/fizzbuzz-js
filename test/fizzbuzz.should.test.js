@@ -1,5 +1,5 @@
-var fizzbuzz = require("../fizzbuzz.js");
 require("chai").should();
+const fizzbuzz = require("../fizzbuzz.js");
 
 describe("fizzbuzz: using should", function () {
   context("when divisible by 3", function () {

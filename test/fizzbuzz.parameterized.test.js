@@ -1,5 +1,5 @@
-var fizzbuzz = require("../fizzbuzz.js");
 require("chai").should();
+const fizzbuzz = require("../fizzbuzz.js");
 
 const tests = [
   {num: 1, expected: 1},

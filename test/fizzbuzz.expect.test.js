@@ -1,5 +1,5 @@
-var fizzbuzz = require("../fizzbuzz.js");
-var expect = require("chai").expect;
+const expect = require("chai").expect;
+const fizzbuzz = require("../fizzbuzz.js");
 
 describe("fizzbuzz: using expects", function () {
   context("when divisible by 3", function () {
