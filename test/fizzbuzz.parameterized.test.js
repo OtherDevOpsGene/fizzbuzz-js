@@ -1,4 +1,4 @@
-require("chai").should();
+const expect = require("chai").expect;
 const fizzbuzz = require("../fizzbuzz.js");
 
 const tests = [
@@ -28,7 +28,7 @@ describe("fizzbuzz: parameterized", function () {
   // eslint-disable-next-line mocha/no-setup-in-describe
   tests.forEach(({num, expected}) => {
     it(`${num} should return ${expected}`, function () {
-      fizzbuzz(num).should.equal(expected);
+      expect(fizzbuzz(num)).to.equal(expected);
     });
   });
 });
