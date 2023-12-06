@@ -1,5 +1,5 @@
-var fizzbuzz = require("../fizzbuzz.js");
-var assert = require("chai").assert;
+const assert = require("chai").assert;
+const fizzbuzz = require("../fizzbuzz.js");
 
 describe("fizzbuzz", function () {
   context("when divisible by 3", function () {
