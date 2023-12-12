@@ -15,7 +15,7 @@ describe("fizzbuzz: using expects", function () {
   });
 
   context("when divisible by 15", function () {
-    it("should return fizz", function () {
+    it("should return fizzbuzz", function () {
       expect(fizzbuzz(15)).to.equal("fizzbuzz");
     });
   });

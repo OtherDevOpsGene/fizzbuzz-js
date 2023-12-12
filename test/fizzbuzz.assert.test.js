@@ -15,7 +15,7 @@ describe("fizzbuzz: using asserts", function () {
   });
 
   context("when divisible by 15", function () {
-    it("should return fizz", function () {
+    it("should return fizzbuzz", function () {
       assert.equal(fizzbuzz(15), "fizzbuzz");
     });
   });

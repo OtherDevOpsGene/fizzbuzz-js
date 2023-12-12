@@ -15,7 +15,7 @@ describe("fizzbuzz: using should", function () {
   });
 
   context("when divisible by 15", function () {
-    it("should return fizz", function () {
+    it("should return fizzbuzz", function () {
       fizzbuzz(15).should.equal("fizzbuzz");
     });
   });
